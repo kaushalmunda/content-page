@@ -1,0 +1,14 @@
+nav bar bg - rgb(239, 65, 54) 
+
+start page section bg - rgb(255, 55, 32)
+
+anchor - rgb(255, 55, 32)
+
+cup - rgb(255, 55, 32)
+
+cup section bg - rgb(241, 241, 241)
+
+quote bg - rgb(101, 101, 101)
+
+social media icons - rgb(103, 103, 103)
+
