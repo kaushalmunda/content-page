@@ -216,9 +216,8 @@
 
   .navlinks {
     width: 100%;
-    height: 49vh;
-    background-color: rgb(255, 55, 32);
-    padding-top: 10px;
+    background-color: #333;
+    padding: 10px 0;
     margin-left: -100%;
     transition: 0.5s;
   }
