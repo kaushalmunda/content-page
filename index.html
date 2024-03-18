@@ -17,13 +17,24 @@
       <label for="check" id="check-button"><i class="fa fa-bars"></i></label>
       <label class="logo">Start Page</label>
 
-      <ul class="navlinks">
-        <li><a class="active" id="current-link" href="#home">Home</a></li>
-        <li><a href="#link1">Link 1</a></li>
-        <li><a href="#link2">Link 2</a></li>
-        <li><a href="#link3">Link 3</a></li>
-        <li><a href="#link4">Link 4</a></li>
-      </ul>
+      <div class="mobilenav-body">
+        <ul class="navlinks">
+          <li><a class="active" id="current-link" href="#home">Home</a></li>
+          <li><a href="#link1">Link 1</a></li>
+          <li><a href="#link2">Link 2</a></li>
+          <li><a href="#link3">Link 3</a></li>
+          <li><a href="#link4">Link 4</a></li>
+
+          <footer class="nav-footer">
+            <hr class="nav-hr" />
+            <a href="#help">Help</a>
+            <a href="#settings">Settings</a>
+          </footer>
+        </ul>
+
+        <!-- nav right black shade for mobile -->
+        <div class="black-shade"></div>
+      </div>
     </div>
 
     <div class="content-body">
@@ -94,7 +105,7 @@
           </div>
 
           <div class="cup-img-container">
-            <img src="./images/cup.png" alt="anchor image" class="img-cup" />
+            <img src="./images/cup.png" alt="cup image" class="img-cup" />
           </div>
         </div>
       </div>
@@ -128,7 +139,7 @@
           /></a>
         </div>
 
-        <p class="footer">Powered by <u>Eimple Labs</u></p>
+        <p class="footer">Powered by <u class="company">Eimple Labs</u></p>
       </footer>
     </div>
   </body>
