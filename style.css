@@ -79,7 +79,6 @@
 .nav-footer a {
   color: #333;
   text-decoration: none;
-  padding: 0 1px;
 }
 
 /* content body */
@@ -258,6 +257,10 @@
     color: black;
   }
 
+  .navlinks li a:hover:not(.active) {
+    background-color: rgba(255, 230, 0, 0.3);
+  }
+
   .navlinks .active {
     color: white;
     background-color: #333;
@@ -267,6 +270,11 @@
   .nav-footer {
     display: block;
     text-align: center;
+  }
+
+  .nav-footer a:hover {
+    background-color: none;
+    color: blue;
   }
 
   .nav-hr {
